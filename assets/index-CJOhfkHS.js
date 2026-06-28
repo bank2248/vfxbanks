@@ -10375,7 +10375,7 @@ const p0 = {
         title: "In Memoriam",
         category: "composite",
         description: "I worked on compositite and build the scene and lighting.",
-        software: ["Foundry Nuke", "Maya", "Arnold Renderer", "Octane Render"],
+        software: ["Nuke", "Maya"],
         beforeImage: "../assets/inmem/19bf.jpeg",
         afterImage: "../assets/inmem/19.jpeg",
         role: "compositor",
@@ -16647,8 +16647,8 @@ function F5({
 function Rp({
     beforeImage: a,
     afterImage: l,
-    beforeLabel: r = "RAW PLATE",
-    afterLabel: o = "FINAL COMPOSITE",
+    beforeLabel: r = "",
+    afterLabel: o = "",
     heightClass: c = "aspect-[16/9] w-full",
     projectId: h
 }) {
@@ -16685,7 +16685,7 @@ function Rp({
         onClick: k,
         children: [y.jsx("img", {
             src: l,
-            alt: "After Composited Visual Effects",
+            alt: "",
             className: "absolute inset-0 h-full w-full object-cover pointer-events-none",
             referrerPolicy: "no-referrer"
         }), y.jsx("div", {
@@ -16695,7 +16695,7 @@ function Rp({
             },
             children: y.jsx("img", {
                 src: a,
-                alt: "Before Raw Plate",
+                alt: "",
                 className: "absolute inset-0 h-full w-full object-cover max-w-none",
                 style: {
                     width: ((G = x.current) == null ? void 0 : G.getBoundingClientRect().width) || "100vw"
@@ -16732,10 +16732,7 @@ function Rp({
                     })]
                 })
             })
-        }), y.jsx("div", {
-            className: "absolute bottom-4 left-1/2 -translate-x-1/2 pointer-events-none rounded-full bg-black/60 px-3 py-1 text-[10px] font-mono tracking-widest text-neutral-400 backdrop-blur-sm border border-neutral-800/40",
-            children: "DRAG SLIDER TO REVEAL"
-        })]
+        }), ]
     })
 }
 
@@ -17703,8 +17700,8 @@ function $5() {
                             children: [S.category === "composite" && y.jsx(Rp, {
                                 beforeImage: S.beforeImage,
                                 afterImage: S.afterImage,
-                                beforeLabel: "01_RAW GREEN PLATE",
-                                afterLabel: "02_FINAL CG COMPILE",
+                                beforeLabel: "",
+                                afterLabel: "",
                                 projectId: S.id
                             }), S.category === "tracking" && y.jsx(P5, {
                                 backgroundImage: S.afterImage,
@@ -17712,8 +17709,8 @@ function $5() {
                             }), S.category === "paint" && y.jsx(Rp, {
                                 beforeImage: S.beforeImage,
                                 afterImage: S.afterImage,
-                                beforeLabel: "01_RAW RIG CAPTURE",
-                                afterLabel: "02_DIGITAL CLEAN PLATE",
+                                beforeLabel: "",
+                                afterLabel: "",
                                 projectId: S.id
                             }), S.category === "other" && y.jsxs("div", {
                                 className: "relative aspect-[16/9] w-full rounded-xl overflow-hidden border border-neutral-800 shadow-2xl group cursor-pointer bg-neutral-950",
@@ -17726,12 +17723,12 @@ function $5() {
                                     className: "absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"
                                 }), y.jsx("div", {
                                     className: "absolute top-4 left-4 z-10 pointer-events-none rounded bg-black/80 px-2.5 py-1 text-[10px] font-mono tracking-wider text-neutral-400 border border-neutral-800",
-                                    children: "PRO_FX_SIM_04"
+                                    children: ""
                                 }), y.jsx("div", {
                                     className: "absolute bottom-4 left-4 z-10 pointer-events-none",
                                     children: y.jsx("span", {
                                         className: "text-[10px] font-mono tracking-widest text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-900/40 mr-2 uppercase",
-                                        children: "SIMULATED PARTICLES"
+                                        children: ""
                                     })
                                 })]
                             })]
