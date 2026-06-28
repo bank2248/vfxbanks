@@ -10552,9 +10552,9 @@ function $x({
                     }), y.jsx("span", {
                         className: "hidden lg:inline",
                         children: "WATCH REEL"
-                    })]
-                })]
-            })]
+                    }),]
+                }), ]
+            }), ]
         })
     })
 }
@@ -16616,6 +16616,17 @@ function F5({
                     }), y.jsx("span", {
                         children: "Watch Reel on YouTube"
                     })]
+                }), y.jsxs("a", {
+                    href: "../assets/NattawutResume.pdf",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    id: "youtube-reel-button",
+                    className: "group relative flex items-center justify-center gap-3 bg-white hover:bg-neutral-200 text-black font-sans font-bold text-xs tracking-[0.2em] uppercase px-10 py-5 rounded-full cursor-pointer transition-all duration-300 hover:scale-105 active:scale-95 w-full sm:w-auto",
+                    children: [y.jsx(Dc, {
+                        className: "h-4.5 w-4.5 text-black fill-current"
+                    }), y.jsx("span", {
+                        children: "RESUME"
+                    })]
                 }), y.jsxs("button", {
                     onClick: l,
                     className: "group flex items-center justify-center gap-2 bg-neutral-900 hover:bg-neutral-800/80 border border-neutral-800 hover:border-neutral-700 text-neutral-400 hover:text-white font-sans font-bold text-xs tracking-[0.2em] uppercase px-8 py-5 rounded-full cursor-pointer transition-all duration-300 w-full sm:w-auto",
@@ -16624,7 +16635,7 @@ function F5({
                     }), y.jsx(rx, {
                         className: "h-3.5 w-3.5 text-neutral-500 group-hover:text-white transition-colors animate-bounce"
                     })]
-                })]
+                }), ]
             })]
         }), y.jsxs("div", {
             className: "absolute bottom-6 left-6 right-6 z-20 flex justify-between items-center text-[10px] font-mono text-neutral-500 pointer-events-none hidden md:flex",
