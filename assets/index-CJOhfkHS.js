@@ -10331,8 +10331,8 @@ const p0 = {
         youtubeUrl: "https://youtu.be/7LExDbzEYe4",
         heroVideoUrl: "/assets/vfxreel2026_low.mp4",
         email: "nattawut.boonmm@gmail.com",
-        linkedin: "https://linkedin.com/in/kaelen-vfx-portfolio-demo",
-        artstation: "https://artstation.com/kaelen-vfx-demo",
+        linkedin: "",
+        artstation: "",
         experience: "2+ Years in Feature & Commercial VFX"
     },/*
     Wx = [{
