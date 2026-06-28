@@ -16617,7 +16617,7 @@ function F5({
                         children: "Watch Reel on YouTube"
                     })]
                 }), y.jsxs("a", {
-                    href: "../assets/NattawutResume.pdf",
+                    href: "../assets/Nattawut_Resume.pdf",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     id: "youtube-reel-button",
