@@ -10327,7 +10327,7 @@ const Px = [
 const p0 = {
         artistName: "NATTAWUT BOONMEE",
         title: "Paint / Compositor",
-        bio: "Hi, I'm a VFX Artist with 2+ years of production experience in feature films, television series, and commercial productions. Experienced in Nuke compositing, digital paint, cleanup, de-aging, camera tracking, and CG integration.",
+        bio: "Hi, I'm a VFX Artist with 2+ years of production experience in feature films, television series, and commercial productions. Experienced in Nuke compositing, digital paint, cleanup, de-aging, camera tracking, rotoanim, and CG integration.",
         youtubeUrl: "https://youtu.be/7LExDbzEYe4",
         heroVideoUrl: "/assets/vfxreel2026_low.mp4",
         email: "nattawut.boonmm@gmail.com",
