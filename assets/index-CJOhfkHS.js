@@ -10326,7 +10326,7 @@ const Px = [
  */
 const p0 = {
         artistName: "NATTAWUT BOONMEE",
-        title: "Compositor",
+        title: "Paint / Compositor",
         bio: "Hi, I'm a VFX Artist with 2+ years of production experience in feature films, television series, and commercial productions. Experienced in Nuke compositing, digital paint, cleanup, de-aging, camera tracking, and CG integration.",
         youtubeUrl: "https://youtu.be/7LExDbzEYe4",
         heroVideoUrl: "/assets/vfxreel2026_low.mp4",
@@ -10403,29 +10403,40 @@ const p0 = {
         role: "compositor",
         client: "",
         breakdownSteps: ["N/A"]
-    }, /*{
+    }, {
         id: "proj_track_01",
-        title: "Project 'Highway Matchmove': Sunset Desert Vehicle Tracking",
+        title: "Wire Removal - MV ล้านปีแสง - Zom Marie",
         category: "tracking",
-        description: "High-precision camera and object tracking on a sweeping anamorphic sunset sequence. Resolved a challenging camera movement with rapid pan and lens distortion using professional point-cloud and coordinate solvers. Aligned coordinate systems, ground grids, and tracking points to facilitate perfect 3D vehicle integration.",
-        software: ["Syntheyes", "Autodesk Maya", "Foundry Nuke"],
-        beforeImage: "/src/assets/images/tracking_breakdown_1782570887483.jpg",
-        afterImage: "/src/assets/images/tracking_breakdown_1782570887483.jpg",
-        role: "Senior Matchmove Artist",
-        client: "Apex Commercials Ltd.",
-        breakdownSteps: ["Auto-tracking of static environment landmarks to compute basic camera motion", "Manual tracking of survey points to resolve high lens-distortion margins", "Ground plane alignment and coordinate center definition", "3D grid setup to verify camera solver accuracy (0.24 pixel error margin)", "Export of ready-to-use FBX camera data and point clouds to the 3D animation team"]
+        description: "Cam support for wire removal.",
+        software: ["Syntheyes"],
+        beforeImage: "",
+        afterImage: "../assets/trk_zom01.mp4",
+        role: "Camera",
+        client: "",
+        breakdownSteps: ["N/A"]
     }, {
         id: "proj_track_02",
-        title: "Project 'Facial Capture': Hyper-Real Performance Solver",
+        title: "Psycho-T (Thesis Project)",
         category: "tracking",
-        description: "Advanced object tracking and performance capture on a close-up facial sequence. Resolved high-frequency facial muscle movements using a customized grid layout of physical tracking points to create a high-precision digital facial skeleton.",
-        software: ["3DEqualizer", "Autodesk Maya", "Metahuman Animator"],
-        beforeImage: "/src/assets/images/tracking_facial_points_1782571717764.jpg",
-        afterImage: "/src/assets/images/tracking_facial_points_1782571717764.jpg",
-        role: "Lead Matchmove Specialist",
-        client: "CyberLife Gaming Corp.",
-        breakdownSteps: ["Stabilizing high-shutter face footage to isolate muscle contraction layers", "Point cloud extraction of 64 facial node tracking vectors", "Calibration of facial micro-expressions with dynamic blendshape mapping", "Solving object tracking for rigid head bone movement versus secondary facial mesh drift", "Generating seamless FBX point clouds for automated rigging pipelines"]
-    }, */{
+        description: "CG : Cut Arm",
+        software: ["Syntheyes"],
+        beforeImage: "",
+        afterImage: "../assets/trk_psychot01.mp4",
+        role: "Camera",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, {
+        id: "proj_track_03",
+        title: "My Test Project",
+        category: "tracking",
+        description: "Just testing world-building in SynthEyes",
+        software: ["Syntheyes"],
+        beforeImage: "",
+        afterImage: "../assets/trk_siam01.mp4",
+        role: "Camera",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, {
         id: "proj_paint_01",
         title: "Wire Removal - MV ล้านปีแสง - Zom Marie",
         category: "paint",
@@ -10447,29 +10458,51 @@ const p0 = {
         role: "Lead Paint Artist",
         client: "Vanguard Studios",
         breakdownSteps: ["Automated and manual paint-out of orange safety cables and support rigs", "Dynamic reconstruction of complex steel structures and industrial scaffolding", "Restoration of subtle smoke and particulate haze across wire-crossed areas", "Roto-masking of leaping stunt actors across detailed background zones", "Ensuring color temperature and dynamic noise values remain intact on pristine regions"]
-    },*/ /* {
+    },*/ {
         id: "proj_other_01",
-        title: "Project 'Draconis': Procedural Spark & Liquid Chrome FX",
+        title: "In Memroriam",
         category: "other",
-        description: "Complex CGI animation and simulation compositing. Seamlessly merged a fully procedural liquid-metal dragon creature with interactive fire and smoke simulation. Composited realistic lens flares, metal reflections matching the ambient lighting, and rich particulate embers.",
-        software: ["Houdini (Pyro FX)", "SideFX Karma", "Foundry Nuke", "Substance Painter"],
-        beforeImage: "/src/assets/images/particles_cgi_1782570942520.jpg",
-        afterImage: "/src/assets/images/particles_cgi_1782570942520.jpg",
-        role: "Technical Director / FX Compositor",
-        client: "Dimension Film Works",
-        breakdownSteps: ["Pyro simulation of smoke and interactive spark particles in Houdini", "Chrome shader development with realistic environment HDRI reflections", "Compositing ambient glows, heat distortion waves, and cinematic light glare", "Deep compositing to preserve proper depth relationships between dragon, sparks, and smoke", "Added physical camera shake and dynamic lens artifacts during high-intensity frames"]
+        description: "Made world, Layout, Look Dev, and Lighting",
+        software: ["Houdini (Terrain)", "Maya", "Redshift", "Clarrise", "Mari"],
+        beforeImage: "",
+        afterImage: "../assets/inmem/16.jpg",
+        role: "Compositor",
+        client: "",
+        breakdownSteps: ["N/A"]
     }, {
         id: "proj_other_02",
-        title: "Project 'Barrier': High-Tech Plasma Energy Shield",
+        title: "In Memroriam",
         category: "other",
-        description: "Visual effects design and composite of a dynamic force-field protecting an actress from a plasma burst. Integrated 3D particle simulations with real-time refraction layers, complex lighting interactive passes, and color-matched flares.",
-        software: ["Houdini (Sparks)", "Foundry Nuke", "After Effects (Shield FX)"],
-        beforeImage: "/src/assets/images/other_energy_shield_1782571749695.jpg",
-        afterImage: "/src/assets/images/other_energy_shield_1782571749695.jpg",
-        role: "FX Artist & Compositor",
-        client: "Nova VFX Labs",
-        breakdownSteps: ["Houdini spark explosion generation with deep velocity-field motion blur", "Energy field glow and light refraction shader development", "Dynamic interactive lighting pass baked onto the actress's face and jacket", "Integrating ambient blue fire particles and heat distortion currents", "Anamorphic lens flare integration and glow post-processing"]
-    }*/];
+        description: "World Building, Composite",
+        software: ["Houdini (Terrain)", "Nuke"],
+        beforeImage: "",
+        afterImage: "../assets/inmem/9.jpg",
+        role: "Compositor",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, {
+        id: "proj_other_03",
+        title: "In Memroriam",
+        category: "other",
+        description: "World Building, Composite",
+        software: ["Houdini (Terrain)", "Nuke"],
+        beforeImage: "",
+        afterImage: "../assets/inmem/11.jpg",
+        role: "Compositor",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, {
+        id: "proj_other_04",
+        title: "City Car (Personal Project)",
+        category: "other",
+        description: "I made layout, lighting, render, and composite. This is a personal testing project for learing Clarisse.",
+        software: ["Houdini, Clarisse, Nuke"],
+        beforeImage: "",
+        afterImage: "../assets/city_car_graded_v01_plated.jpg",
+        role: "Compositor",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }];
 
 function $x({
     config: a,
@@ -16616,17 +16649,6 @@ function F5({
                     }), y.jsx("span", {
                         children: "Watch Reel on YouTube"
                     })]
-                }), y.jsxs("a", {
-                    href: "../assets/Nattawut_Resume.pdf",
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                    id: "youtube-reel-button",
-                    className: "group relative flex items-center justify-center gap-3 bg-white hover:bg-neutral-200 text-black font-sans font-bold text-xs tracking-[0.2em] uppercase px-10 py-5 rounded-full cursor-pointer transition-all duration-300 hover:scale-105 active:scale-95 w-full sm:w-auto",
-                    children: [y.jsx(Dc, {
-                        className: "h-4.5 w-4.5 text-black fill-current"
-                    }), y.jsx("span", {
-                        children: "RESUME"
-                    })]
                 }), y.jsxs("button", {
                     onClick: l,
                     className: "group flex items-center justify-center gap-2 bg-neutral-900 hover:bg-neutral-800/80 border border-neutral-800 hover:border-neutral-700 text-neutral-400 hover:text-white font-sans font-bold text-xs tracking-[0.2em] uppercase px-8 py-5 rounded-full cursor-pointer transition-all duration-300 w-full sm:w-auto",
@@ -16713,17 +16735,8 @@ function Rp({
                 },
                 referrerPolicy: "no-referrer"
             })
-        }), y.jsxs("div", {
-            className: "absolute top-4 left-4 z-10 pointer-events-none flex items-center gap-1.5 rounded bg-black/75 px-2.5 py-1 text-[10px] font-mono tracking-wider text-neutral-400 border border-neutral-800",
-            children: [y.jsx(Sx, {
-                className: "h-3.5 w-3.5 text-neutral-500"
-            }), r]
-        }), y.jsxs("div", {
-            className: "absolute top-4 right-4 z-10 pointer-events-none flex items-center gap-1.5 rounded bg-sky-950/80 px-2.5 py-1 text-[10px] font-mono tracking-wider text-sky-400 border border-sky-800/50",
-            children: [y.jsx(Ax, {
-                className: "h-3.5 w-3.5 text-sky-400"
-            }), o]
-        }), y.jsx("div", {
+        }),
+        y.jsx("div", {
             className: "absolute inset-y-0 z-20 w-[2px] bg-sky-500 cursor-ew-resize group",
             style: {
                 left: `${d}%`
@@ -16895,272 +16908,20 @@ function P5({
                 p(.18 + Math.random() * .05), m(40 + Math.floor(Math.random() * 15)), b([28, 35, 50, 85][Math.floor(Math.random() * 4)]), o(!0)
             }, 600)
         };
-    return y.jsxs("div", {
-        id: `tracking-demo-${l||"default"}`,
-        ref: B,
-        className: "relative w-full aspect-[16/9] bg-neutral-950 border border-neutral-800 rounded-xl overflow-hidden select-none",
-        children: [y.jsx("img", {
-            src: a,
-            alt: "Camera Tracking Matchmove Footage",
-            className: "absolute inset-0 w-full h-full object-cover pointer-events-none brightness-75",
-            referrerPolicy: "no-referrer"
-        }), c && y.jsxs("svg", {
-            className: "absolute inset-0 w-full h-full pointer-events-none opacity-80 mix-blend-screen",
-            children: [y.jsx("line", {
-                x1: "10%",
-                y1: "90%",
-                x2: "50%",
-                y2: "55%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                strokeDasharray: "4 4"
-            }), y.jsx("line", {
-                x1: "90%",
-                y1: "90%",
-                x2: "50%",
-                y2: "55%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                strokeDasharray: "4 4"
-            }), y.jsx("line", {
-                x1: "30%",
-                y1: "95%",
-                x2: "50%",
-                y2: "55%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                strokeDasharray: "2 2"
-            }), y.jsx("line", {
-                x1: "70%",
-                y1: "95%",
-                x2: "50%",
-                y2: "55%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                strokeDasharray: "2 2"
-            }), y.jsx("line", {
-                x1: "18%",
-                y1: "80%",
-                x2: "82%",
-                y2: "80%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                opacity: "0.4"
-            }), y.jsx("line", {
-                x1: "28%",
-                y1: "70%",
-                x2: "72%",
-                y2: "70%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                opacity: "0.4"
-            }), y.jsx("line", {
-                x1: "36%",
-                y1: "62%",
-                x2: "64%",
-                y2: "62%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                opacity: "0.4"
-            }), y.jsx("line", {
-                x1: "43%",
-                y1: "56%",
-                x2: "57%",
-                y2: "56%",
-                stroke: "#06b6d4",
-                strokeWidth: "0.5",
-                opacity: "0.4"
-            }), M.length > 0 && y.jsxs(y.Fragment, {
-                children: [y.jsx("line", {
-                    x1: `${M[0].x}%`,
-                    y1: `${M[0].y}%`,
-                    x2: `${M[2].x}%`,
-                    y2: `${M[2].y}%`,
-                    stroke: "#eab308",
-                    strokeWidth: "0.5",
-                    opacity: "0.4"
-                }), y.jsx("line", {
-                    x1: `${M[2].x}%`,
-                    y1: `${M[2].y}%`,
-                    x2: `${M[1].x}%`,
-                    y2: `${M[1].y}%`,
-                    stroke: "#eab308",
-                    strokeWidth: "0.5",
-                    opacity: "0.4"
-                }), y.jsx("line", {
-                    x1: `${M[0].x}%`,
-                    y1: `${M[0].y}%`,
-                    x2: `${M[3].x}%`,
-                    y2: `${M[3].y}%`,
-                    stroke: "#10b981",
-                    strokeWidth: "0.5",
-                    opacity: "0.3"
-                }), y.jsx("line", {
-                    x1: `${M[1].x}%`,
-                    y1: `${M[1].y}%`,
-                    x2: `${M[4].x}%`,
-                    y2: `${M[4].y}%`,
-                    stroke: "#10b981",
-                    strokeWidth: "0.5",
-                    opacity: "0.3"
-                }), y.jsx("line", {
-                    x1: `${M[6].x}%`,
-                    y1: `${M[6].y}%`,
-                    x2: `${M[2].x}%`,
-                    y2: `${M[2].y}%`,
-                    stroke: "#10b981",
-                    strokeWidth: "0.5",
-                    opacity: "0.5"
-                }), y.jsx("line", {
-                    x1: `${M[6].x}%`,
-                    y1: `${M[6].y}%`,
-                    x2: `${M[10].x}%`,
-                    y2: `${M[10].y}%`,
-                    stroke: "#10b981",
-                    strokeWidth: "0.5",
-                    opacity: "0.4"
-                }), y.jsx("line", {
-                    x1: `${M[7].x}%`,
-                    y1: `${M[7].y}%`,
-                    x2: `${M[9].x}%`,
-                    y2: `${M[9].y}%`,
-                    stroke: "#10b981",
-                    strokeWidth: "0.5",
-                    opacity: "0.3"
-                })]
-            })]
-        }), M.map(q => {
-            q.status;
-            const $ = q.status === "keyframe";
-            let at = "border-emerald-500 text-emerald-400",
-                Z = "bg-emerald-500";
-            return $ ? (at = "border-amber-500 text-amber-400", Z = "bg-amber-500") : q.status === "lost" && (at = "border-rose-500 text-rose-400", Z = "bg-rose-500"), y.jsxs("div", {
-                className: "absolute z-10 -translate-x-1/2 -translate-y-1/2 group cursor-pointer",
-                style: {
-                    left: `${q.x}%`,
-                    top: `${q.y}%`
-                },
-                children: [y.jsxs("div", {
-                    className: `relative h-5 w-5 rounded-sm border ${at} flex items-center justify-center transition-all duration-75 group-hover:scale-125`,
-                    children: [y.jsx("div", {
-                        className: `h-1.5 w-1.5 rounded-full ${Z}`
-                    }), y.jsx("div", {
-                        className: "absolute top-0 bottom-0 left-1/2 w-[0.5px] bg-current opacity-0 group-hover:opacity-40 -translate-x-1/2 scale-y-150"
-                    }), y.jsx("div", {
-                        className: "absolute left-0 right-0 top-1/2 h-[0.5px] bg-current opacity-0 group-hover:opacity-40 -translate-y-1/2 scale-x-150"
-                    })]
-                }), y.jsxs("div", {
-                    className: "absolute top-6 left-1/2 -translate-x-1/2 pointer-events-none scale-0 group-hover:scale-100 transition-all duration-100 origin-top bg-neutral-900 border border-neutral-800 text-[8px] font-mono tracking-tighter text-neutral-300 px-1.5 py-0.5 rounded shadow-lg whitespace-nowrap z-30",
-                    children: [q.label, " ", y.jsxs("span", {
-                        className: "text-neutral-500",
-                        children: ["[", q.x.toFixed(0), ",", q.y.toFixed(0), "]"]
-                    })]
-                })]
-            }, q.id)
-        }), y.jsxs("div", {
-            className: "absolute top-4 left-4 z-20 pointer-events-none max-w-[200px] bg-black/70 backdrop-blur-md border border-neutral-800 rounded p-2.5 font-mono text-[9px] text-neutral-400 flex flex-col gap-1 shadow-lg",
-            children: [y.jsxs("div", {
-                className: "flex items-center gap-1.5 border-b border-neutral-800 pb-1 mb-1 text-sky-400 font-bold",
-                children: [y.jsx(hx, {
-                    className: "h-3 w-3"
-                }), "CAMERA_SOLVER_v3.2"]
-            }), y.jsxs("div", {
-                className: "flex justify-between",
-                children: [y.jsx("span", {
-                    children: "STATUS:"
-                }), y.jsx("span", {
-                    className: r ? "text-emerald-400 font-bold" : "text-amber-400",
-                    children: r ? "● SOLVING" : "■ PAUSED"
-                })]
-            }), y.jsxs("div", {
-                className: "flex justify-between",
-                children: [y.jsx("span", {
-                    children: "RMS ERROR:"
-                }), y.jsxs("span", {
-                    className: "text-emerald-400 font-bold",
-                    children: [d, "px"]
-                })]
-            }), y.jsxs("div", {
-                className: "flex justify-between",
-                children: [y.jsx("span", {
-                    children: "ACTIVE TRACKS:"
-                }), y.jsxs("span", {
-                    className: "text-neutral-100",
-                    children: [v, " points"]
-                })]
-            }), y.jsxs("div", {
-                className: "flex justify-between",
-                children: [y.jsx("span", {
-                    children: "LENS FOCAL:"
-                }), y.jsxs("span", {
-                    className: "text-neutral-100",
-                    children: [x.toFixed(1), "mm"]
-                })]
-            }), y.jsxs("div", {
-                className: "border-t border-neutral-800/60 pt-1 mt-1 text-[8px] flex flex-col gap-0.5",
-                children: [y.jsxs("div", {
-                    className: "flex justify-between",
-                    children: [y.jsx("span", {
-                        children: "CAM_X:"
-                    }), y.jsx("span", {
-                        className: "text-sky-400",
-                        children: S.x
-                    })]
-                }), y.jsxs("div", {
-                    className: "flex justify-between",
-                    children: [y.jsx("span", {
-                        children: "CAM_Y:"
-                    }), y.jsx("span", {
-                        className: "text-sky-400",
-                        children: S.y
-                    })]
-                }), y.jsxs("div", {
-                    className: "flex justify-between",
-                    children: [y.jsx("span", {
-                        children: "CAM_Z:"
-                    }), y.jsx("span", {
-                        className: "text-sky-400",
-                        children: S.z
-                    })]
-                })]
-            })]
-        }), y.jsxs("div", {
-            className: "absolute top-4 right-4 z-20 bg-black/60 backdrop-blur-sm border border-neutral-800/80 px-2 py-1.5 rounded-lg text-[9px] font-mono text-neutral-400 pointer-events-none flex items-center gap-1.5",
-            children: [y.jsx(wc, {
-                className: "h-3.5 w-3.5 text-amber-500 animate-spin",
-                style: {
-                    animationDuration: "4s"
-                }
-            }), "MATCHMOVE SOLVED"]
-        }), y.jsxs("div", {
-            className: "absolute bottom-4 left-4 right-4 z-20 flex justify-between items-center bg-neutral-900/90 backdrop-blur-md border border-neutral-800 px-3 py-2 rounded-lg shadow-xl",
-            children: [y.jsxs("div", {
-                className: "flex items-center gap-4",
-                children: [y.jsx("button", {
-                    onClick: G,
-                    className: `px-2.5 py-1 text-[10px] font-mono font-bold tracking-wider rounded border cursor-pointer transition-all ${r?"bg-amber-950/40 text-amber-400 border-amber-800/50 hover:bg-amber-900/30":"bg-emerald-950/40 text-emerald-400 border-emerald-800/50 hover:bg-emerald-900/30"}`,
-                    children: r ? "PAUSE FRAME" : "PLAY DRIFT"
-                }), y.jsx("button", {
-                    onClick: () => h(!c),
-                    className: `px-2.5 py-1 text-[10px] font-mono font-bold tracking-wider rounded border cursor-pointer transition-all ${c?"bg-sky-950/40 text-sky-400 border-sky-800/50 hover:bg-sky-900/30":"bg-neutral-800 text-neutral-400 border-neutral-700 hover:bg-neutral-700"}`,
-                    children: c ? "HIDE WIREFRAME" : "SHOW WIREFRAME"
-                })]
-            }), y.jsxs("div", {
-                className: "flex items-center gap-3",
-                children: [y.jsxs("button", {
-                    onClick: H,
-                    className: "flex items-center gap-1 bg-neutral-800 hover:bg-neutral-700 border border-neutral-700 text-neutral-300 px-2.5 py-1 text-[10px] font-mono tracking-wider rounded cursor-pointer transition-all",
-                    children: [y.jsx(Vx, {
-                        className: "h-3 w-3"
-                    }), "RE-SOLVE SCENE"]
-                }), y.jsx("span", {
-                    className: "text-[10px] font-mono text-neutral-500 hidden sm:inline border-l border-neutral-800 pl-3",
-                    children: "HOVER OVER POINTS FOR DETAILED CAMERA COORDINATES"
-                })]
-            })]
-        })]
-    })
-}
+        return y.jsxs("div", {
+            id: `tracking-demo-${l||"default"}`,
+            ref: B,
+            className: "relative w-full aspect-[16/9] bg-neutral-950 border border-neutral-800 rounded-xl overflow-hidden select-none",
+            children: y.jsx("video", {
+                src: a,
+                autoPlay: true,
+                muted: true,
+                loop: true,
+                playsInline: true,
+                className: "w-full h-full object-cover"
+            })
+        })
+        }
 
 function W5({
     isOpen: a,
