@@ -10385,7 +10385,7 @@ const p0 = {
         id: "proj_comp_04",
         title: "SMG",
         category: "composite",
-        description: "This shot required tracking, rotoscoping, compositing and painting out the markers and the wire on the ground and the fire hydrants on the ceiling and add the little light at the corners.",
+        description: "This shot required tracking, rotoscoping, compositing and painting out the markers, footprint on the ground, the wire on the ground, and the fire hydrants on the ceiling and add the little light at the corners.",
         software: ["Nuke"],
         beforeImage: "../assets/smg/smg_01b.jpg",
         afterImage: "../assets/smg/smg_01.jpg",
