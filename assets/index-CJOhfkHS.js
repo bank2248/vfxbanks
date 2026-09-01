@@ -10383,6 +10383,17 @@ const p0 = {
         breakdownSteps: ["N/A"]
     }, {
         id: "proj_comp_04",
+        title: "SMG",
+        category: "composite",
+        description: "This shot required tracking, rotoscoping, compositing and painting out the markers and the wire on the ground and the fire hydrants on the ceiling and add the little light at the corners.",
+        software: ["Nuke"],
+        beforeImage: "../assets/smg/smg_01b.jpg",
+        afterImage: "../assets/smg/smg_01.jpg",
+        role: "compositor",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, {
+        id: "proj_comp_05",
         title: "Union",
         category: "composite",
         description: "This was a test shot I made while I was in school to test camera and scene integration before my final project. I also used it to test rendering in Isotropix's Clarisse.",
@@ -10393,7 +10404,7 @@ const p0 = {
         client: "",
         breakdownSteps: ["N/A"]
     }, {
-        id: "proj_comp_05",
+        id: "proj_comp_06",
         title: "In Memoriam",
         category: "composite",
         description: "I worked on compositite and build the scene and lighting.",
@@ -10404,12 +10415,23 @@ const p0 = {
         client: "",
         breakdownSteps: ["N/A"]
     }, {
+        id: "proj_comp_07",
+        title: "PsychoT",
+        category: "composite",
+        description: "Used SynthEyes to perform camera tracking and then remove arm in Nuke and did render the cut arm in Maya with Arnold then composite in Nuke.",
+        software: ["Nuke", "Maya", "SynthEyes"],
+        beforeImage: "../assets/psychot/psychot_01b.jpg",
+        afterImage: "../assets/psychot/psychot_01.jpg",
+        role: "compositor",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, {
         id: "proj_track_01",
         title: "Wire Removal - MV ล้านปีแสง - Zom Marie",
         category: "tracking",
         description: "Cam support for wire removal.",
         software: ["Syntheyes"],
-        beforeImage: "",
+        beforeImage: "", 
         afterImage: "../assets/trk_zom01.mp4",
         role: "Camera",
         client: "",
@@ -10447,7 +10469,18 @@ const p0 = {
         role: "Digital Paint & Roto Artist",
         client: "Velcurve Studio",
         breakdownSteps: ["N/A"]
-    },/* {
+    }, {
+        id: "proj_paint_02",
+        title: "Psycho-T",
+        category: "paint",
+        description: "Remove arm to comp the cut arm",
+        software: ["Nuke", "SynthEyes"],
+        beforeImage: "../assets/psychot/psychot_01b.jpg",
+        afterImage: "../assets/psychot/psychot_01.jpg",
+        role: "Digital Paint",
+        client: "",
+        breakdownSteps: ["N/A"]
+    }, /*{
         id: "proj_paint_02",
         title: "Project 'Overpass': Industrial Warehouse Wire Cleanup",
         category: "paint",
