@@ -10333,7 +10333,7 @@ const p0 = {
         email: "nattawut.boonmm@gmail.com",
         linkedin: "",
         artstation: "",
-        experience: "2+ Years in Feature & Commercial VFX"
+        experience: "3+ Years in Feature & Commercial VFX"
     },/*
     Wx = [{
         name: "Nebula Lasers (Default)",
